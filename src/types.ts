@@ -10,7 +10,7 @@ export type PokemonList = {
   results: obj[];
 };
 
-type typeObj = {
+export type typeObj = {
   slot: number;
   type: {
     name: string;
@@ -18,7 +18,7 @@ type typeObj = {
   };
 };
 
-type statsObj = {
+export type statsObj = {
   base_stat: number;
   effort: number;
   stat: {
@@ -36,7 +36,7 @@ type abilityObj = {
   slot: number;
 };
 
-type moveObj = {
+export type moveObj = {
   move: {
     name: string;
     url: string;
